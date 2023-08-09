@@ -1,12 +1,13 @@
-# StatusBarLyricExt
+# StatusBarLyricExt - by Juleast
+Forked from [KaguraRinko](https://github.com/KaguraRinko)'s [StatusBarLyricExt](https://github.com/KaguraRinko/StatusBarLyricExt)
 
-这个工具可以为使用 [MediaSession](https://developer.android.google.cn/reference/android/media/session/MediaSession) 的音乐播放器添加状态栏歌词功能
+This tool adds the function to show lyrics on the status bar using [MediaSession](https://developer.android.google.cn/reference/android/media/session/MediaSession).
 
-目前仅支持 [Flyme](https://www.flyme.com/) 和 [exTHmUI](https://www.exthmui.cn/) 的状态栏歌词功能
+Currently status bar lyrics is only supported on [Flyme](https://www.flyme.com/) and [exTHmUI](https://www.exthmui.cn/)
 
-## 原理
-- 通过 [MediaController](https://developer.android.google.cn/reference/android/media/session/MediaController) 取得当前播放的媒体信息
-- 联网获取歌词后显示在状态栏上
+## How it works
+- Currently playing media information is obtained with [MediaController](https://developer.android.google.cn/reference/android/media/session/MediaController).
+- After the lyric information is retrieved online, it will be displayed on the status bar.
 
-## 使用的开源项目
+## Projects used
 - [LyricView](https://github.com/markzhai/LyricView)
